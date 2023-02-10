@@ -21,6 +21,6 @@
         <Button x:Name="button8" Content="" HorizontalAlignment="Center" Margin="0,143,0,0" VerticalAlignment="Top" Height="65" Width="65" Click="button_Click" IsEnabled="False" Grid.Row="1"/>
         <Button x:Name="button9" Content="" HorizontalAlignment="Left" Margin="215,143,0,0" VerticalAlignment="Top" Height="65" Width="65" Click="button_Click" IsEnabled="False" Grid.Row="1"/>
         <TextBlock x:Name="TextBlock" HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" Text="TicTacToe" VerticalAlignment="Top"/>
-        <Button x:Name="NewGame" Content="Новая игра" HorizontalAlignment="Center" Margin="0,265,0,0" VerticalAlignment="Top" Height="57" Width="222" FontSize="18" Click="NewGame_Click" Grid.Row="1"/>
+        <Button x:Name="NewGame" Content="Новая игра" HorizontalAlignment="Center" Margin="0,265,0,0" VerticalAlignment="Top" Height="57" Width="222" FontSize="18" Click="NewGame_Click" Grid.Row="1" Background="#FF33FF1E"/>
     </Grid>
 </Window>
