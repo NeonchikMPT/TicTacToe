@@ -44,9 +44,9 @@ namespace TicTacToe
                     button.Background = Brushes.Blue; 
                 }
             }
-            WinChecker();
+            Win();
             Bot();
-            WinChecker();
+            Win();
         }
 
         private void NewGame_Click(object sender, RoutedEventArgs e)
@@ -245,7 +245,7 @@ namespace TicTacToe
             }
             botTurn = false;
         }
-        private void WinChecker()
+        private void Win()
         {
             gameIsGoing = false;
             if (button1.Content != "" && button2.Content != "" && button3.Content != "" && button4.Content != "" && button5.Content != "" && button6.Content != "" && button7.Content != "" && button8.Content != "" && button9.Content != "")
